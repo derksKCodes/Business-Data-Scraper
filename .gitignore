@@ -1,0 +1,33 @@
+#ignore filkes
+*.log
+*.tmp
+#ignore directories
+temp/
+cache/
+#ignore specific file
+secret_config.json
+#ignore all .env files
+*.env
+#ignore node_modules directory
+node_modules/
+#ignore build directory
+build/
+dist/
+#ignore OS generated files
+.DS_Store
+Thumbs.db
+#ignore IDE specific files
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+#data files
+data/
+*.csv
+*.xlsx
+*.json
+#compiled files
+*.class
+*.o
+*.so
